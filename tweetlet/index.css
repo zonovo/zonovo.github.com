@@ -1,0 +1,5 @@
+html, body, header, footer, h1, h2, h3, p, a  {
+	margin:0;
+	padding:0;
+	font: 14px/1.6 Helvetica, Arial, Sans-Serif;
+}
