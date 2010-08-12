@@ -9,6 +9,14 @@
 	<body>
 		<h1>TweetLet - Tweet Bookmarklet</h1>
 		<p>Drag this <a href="javascript:(function(){window.open('http://twitter.com/share?text='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href),'_blank','width=550,height=100,top=260, left=300, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no');})" title="TweetLet Javascript Link">→Tweet</a> to bookmark bar</p>
-		<code>javascript:(function(){window.open('http://twitter.com/share?text='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href),'_blank','width=550,height=100,top=260, left=300, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no');})()</code>
+		<code>
+			javascript:(function(){window.open('http://twitter.com/share?text='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href),'_blank','width=550,height=100,top=260, left=300, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no');})()
+			
+		</code>
+		
+		<div id="footer">
+			Copyright &copy; <?php echo date("Y"); ?> zonovo.github.com
+		</div>
+		
 	</body>
 </html>
