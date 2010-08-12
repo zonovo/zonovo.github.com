@@ -1,0 +1,10 @@
+__MACOSX
+.DS_Store
+*.swp
+*.swo
+*.log
+debug.log
+tmp/**/*
+*.tmp
+.dropbox
+Desktop.ini
