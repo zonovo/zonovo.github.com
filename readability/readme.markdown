@@ -4,7 +4,7 @@
 ## What
 [Readability™](http://lab.arc90.com/experiments/readability/) is a simple tool that makes reading on the Web more enjoyable by removing the clutter around what you're reading. Follow the steps below to install Readability™ in your Web browser.
 
-[readability.css](/css/readability.css) is modified for better viewing experience.
+/css/readability.css is modified for better viewing experience.
 
 
 ## HowTo
