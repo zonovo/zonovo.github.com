@@ -111,7 +111,7 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 #readInner h1 {
 font-family: Droid Serif, Georgia, 方正黑体简体, Serif !important;
 background: url(data:image/gif;base64,R0lGODlhIgACAIAAAMzMzAAAACH5BAAAAAAALAAAAAAiAAIAAAIHhI+py+1vCgA7) repeat-x 0 100% !important;
-border-bottom: 1px solid rgba(255, 255, 255, 0.898438);
+border-bottom: 1px solid rgba(255, 255, 255, 0.9);
 font-size: 18px !important;
 margin-top: 0 !important;
 padding-top: 30px !important;
@@ -122,9 +122,31 @@ display: none !important;
 }
 
 #readTools {
-opacity: 0.1 !important;
+opacity: 0.2 !important;
 }
 #readTools:hover {
-opacity: 0.3 !important;
+opacity: 0.4 !important;
 }
 
+/* Table Style */
+
+#readability-content table {
+margin: 0 auto !important;
+border-spacing: 0 !important;
+border: solid #ccc !important;
+border-width: 2px 1px 1px 0 !important;
+box-shadow: 0 1px 0 rgba(255,255,255,.5) !important;
+-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.5) !important;
+-moz-box-shadow: 0 1px 0 rgba(255,255,255,.5) !important;
+}
+
+#readability-content table tr td {
+border-left: 1px solid #ddd !important;
+border-right: 0 !important;
+border-top: 1px solid rgba(255,255,255,.5) !important;
+border-bottom: 1px solid #ccc !important;
+}
+
+#readability-content table tr td p {
+margin: 5px !important;
+}
