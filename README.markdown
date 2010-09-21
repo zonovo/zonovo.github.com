@@ -69,8 +69,11 @@ git help
 git help <command>  
 cat <filename>  
 ls  
+git ls-files  
+git ls-files --stage
 git mv  
 git rm  
+git count-objects
 
 * * * * *
 
@@ -81,6 +84,7 @@ rm -Rf lib/
 git commit --allow-empty -m 'initial empty branch'  
 pwd  
 find .  
+clear
 
 * * * * *
 
