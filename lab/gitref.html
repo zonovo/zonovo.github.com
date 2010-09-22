@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta name="Format" content="complete" />
+	</head>
+<body>
+<h1 id="gitreference">Git Reference</h1>
+
+<h2 id="introductiontothegitreference">INTRODUCTION TO THE GIT REFERENCE</h2>
+
+<p>This is the Git reference site. This is meant to be a quick reference for learning and remembering the most important and commonly used Git commands. The commands are organized into sections of the type of operation you may be trying to do, and will preset the common options and commands needed to accomplish these common tasks.</p>
+
+<p>Each section will link to the next section, so it can be used as a tutorial. Every page will also link to more in-depth Git documentation such as the offical manual pages and relevant sections in the Pro Git book, so you can learn more about any of the commands. First, we&#8217;ll start with thinking about source code management like Git does.</p>
+
+<h2 id="howtothinklikegit">HOW TO THINK LIKE GIT</h2>
+
+<p>This first thing that is important to understand about Git is that it thinks about version control very differently than Subversion or Perforce or whatever SCM you may be used to. It is often easier to learn Git by trying to forget your assumptions about how version control works and try to think about it in the Git way.</p>
+
+<p>Let&#8217;s start from scratch. Assume you are designing a new source code management system. How do you do basic version control before you used a tool for it? Chances are that you simply copied your project directory to save what it looked like at that point.</p>
+
+<p>$ cp -R project project.bak 
+That way, you can easily revert files that get messed up later, or see what you have changed by comparing what the project looks like now to what it looked like when you copied it.</p>
+
+<p>If you are really paranoid, you may do this often, maybe putting the date in the name of the backup:</p>
+
+<p>$ cp -R project project.2010-06-01.bak 
+In that case, you may have a bunch of snapshots of your project that you can compare and inspect from. You can even use this model to fairly effectively share changes with someone. If you zip up your project at a known state and put it on your website, other developers can download that, change it and send you a patch pretty easily.</p>
+
+<h2 id="markdownsample">Markdown Sample</h2>
+
+<ul>
+<li>list1
+<ul>
+<li>list1-1</li>
+<li>list1-2</li>
+</ul></li>
+<li>list2</li>
+<li>list3</li>
+</ul>
+
+<p>This is a <code>code</code></p>
+
+<pre><code>This is a &lt;pre&gt;
+</code></pre>
+
+<blockquote>
+  <p>This is a blockquote
+blockquote2
+blockquote3</p>
+</blockquote>
+
+<p>This is a link to <a href="http://www.google.com">Google</a></p>
+
+<p>This is a link to <img id="imageofgooglelogo" src="http://www.google.com/intl/en_ALL/images/srpr/logo1w.png" alt="Image of Google Logo" title="" /></p>
+
+<hr />
+
+<p>The above is a <code>&lt;hr&gt;</code></p>
+
+<hr />
+</body>
+</html>
