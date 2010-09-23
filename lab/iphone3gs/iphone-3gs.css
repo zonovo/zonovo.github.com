@@ -1,0 +1,69 @@
+#productheader h2 a.replaced { background: url("http://images.apple.com/iphone/iphone-3gs/images/product-title-20100607.png") no-repeat; width: 153px; }
+
+/* iPhone 3GS */
+#sfeatures #content .grid2col .column { width: 48%; }
+
+#sfeatures #content .icon_title { padding-bottom: 0; margin-bottom: 0; line-height: 1em; }
+
+#sfeatures #content p.sosumi { color:#888; font-size: 11px !important; line-height: 15px; margin-bottom:0; }
+#sfeatures p.small { color: #999 !important; font-size: 11px !important; line-height: 14px; }
+
+/* images */
+#sfeatures #content img.flushright { margin-right:-75px !important; }
+#sfeatures #content .flushleft { margin-left:-75px !important; }
+#sfeatures #content .across { margin-left: -75px; margin-right: -72px; }
+#sfeatures #content img.center { margin: 0 auto; display: block; }
+#sfeatures #content img.bottom0 { margin-bottom:0; }
+#sfeatures .specs #content img.display { margin-left:0; }
+
+/* Features */
+#sfeatures #content { padding:18px 75px; background: url("http://images.apple.com/iphone/iphone-3gs/images/content-bg-20100607.png") no-repeat 100% 0; }
+#sfeatures p { margin-bottom: 10px; }
+
+#sfeatures .feature { font-size: 14px; clear: both; zoom: 1; }
+#sfeatures .feature:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+#sfeatures #intro { margin: 35px 0 45px; width: 423px; min-height: 559px; }
+#sfeatures #intro h1 { margin-bottom: 0; padding-top: 80px; }
+#sfeatures #intro h2 { margin-bottom: 20px; padding-right: 20px; font-size: 18px; color: #666; font-weight: normal; }
+#sfeatures #intro img.hero { position: absolute; right: 0; top: 59px; }
+#sfeatures #intro p { font-size:18px; color:#666; margin: 0 20px 0 0; }
+#sfeatures #intro p.intro { margin-bottom:16px; }
+
+#sfeatures #iphone-multitasking { margin: -110px 0 0; _margin-top:180px; }
+#sfeatures #iphone-multitasking h3,
+#sfeatures #iphone-multitasking p { margin: 0 148px 0 392px; }
+#sfeatures #iphone-multitasking h3 { padding-top: 98px; }
+
+#sfeatures #iphone-folders img.right { margin-top:-85px; _position:relative; }
+#sfeatures #iphone-folders h3,
+#sfeatures #iphone-folders p { margin: 0 387px 0 150px; }
+#sfeatures #iphone-folders h3 { padding-top: 40px; }
+
+#sfeatures #iphone-ibooks img.left { margin-top:-100px; _position:relative; }
+#sfeatures #iphone-ibooks h3 { margin-top:10px; }
+#sfeatures #iphone-ibooks h3,
+#sfeatures #iphone-ibooks p { margin: 0 0 0 392px; padding-right:44px; }
+
+#sfeatures #iphone-phone { border-bottom: 1px solid #e4e4e4; }
+#sfeatures #iphone-phone h3,
+#sfeatures #iphone-phone p { margin: 0 395px 0 150px; }
+#sfeatures #iphone-phone h3 { padding-top: 65px; }
+#sfeatures #iphone-phone img.right { margin-top:-92px; margin-bottom:0; _position:relative; }
+
+#sfeatures .grid4col { margin-bottom: 35px; _margin-bottom:10px;  }
+#sfeatures .grid4col.first { padding-top:40px; }
+#sfeatures .grid4col .column.first { padding-top:0; }
+#sfeatures .grid4col.last { margin-bottom: 84px;  _margin-bottom:40px; }
+#sfeatures .grid4col img { float: left; margin: 2px 8px 6px 0; display: inline; }
+#sfeatures .grid4col h3 { font-size: 1.5em; font-weight: bold; padding-top: 12px; margin-left: 54px; }
+#sfeatures .grid4col h3.tall { padding-top: 0; }
+#sfeatures .grid4col p { clear: both; color: #252525; font-size: 1.2em; }
+
+#sfeatures .grid4col .tethering span { font-size:11px; color:#999; }
+
+#sfeatures #looking { margin: 0 -37px 33px;  background: #000 url(http://images.apple.com/iphone/iphone-3gs/images/iphone-banner-hero-20100607.jpg) no-repeat 0 0; height:203px; }
+#sfeatures #looking h2 { margin: 0 0 0 460px; padding-top: 42px; }
+#sfeatures #looking p { margin: 0 60px 0 460px; font-size:14px; font-weight: normal; color:#fff; line-height:18px; }
+
+#sfeatures #which-iphone ul.sosumi { *width:auto; }
