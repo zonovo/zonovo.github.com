@@ -42,7 +42,7 @@ This is a link to ![Image of Google Logo](http://www.google.com/intl/en_ALL/imag
 
 
 *****
-The above is a `<hr>`
+The above is a <hr>
 
 *****
 
