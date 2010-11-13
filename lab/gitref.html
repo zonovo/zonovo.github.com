@@ -2,18 +2,22 @@
 <html>
 	<head>
 		<meta name="Format" content="complete" />
+		<link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans&subset=latin' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Inconsolata&subset=latin' rel='stylesheet' type='text/css'>
+
 		<style type="text/css">
 body {
 width: 760px;
 margin: 0 auto;
 padding: 0;
-font-family: Helvetica, 方正黑体简体, Arial, Sans-Serif;
+font-family: 'Droid Sans', Helvetica, 方正黑体简体, Arial, Sans-Serif;
 font-size: 14px;
 background: #fefefe;
 text-shadow: rgba(0, 0, 0, 0.02) 0px 1px 0px;
 }
 h1 {
-font-family: Droid Serif, Georgia, 方正黑体简体, Serif;
+font-family: 'Cuprum', Georgia, 方正黑体简体, Serif;
 font-size: 36px;
 }
 h2 {
@@ -45,6 +49,12 @@ text-shadow:0 1px 0 rgba(0, 0, 0, 0.2);
 }
 a:active {
 background: rgba(94, 126, 191, 1);
+}
+
+code {
+	font-family: 'Inconsolata','Courier New', monaco, monospace;
+	font-size: 16px;
+	color: green;
 }
 		</style>
 	</head>
@@ -85,9 +95,20 @@ In that case, you may have a bunch of snapshots of your project that you can com
 <li>list3</li>
 </ul>
 
-<p>This is a <code>code</code></p>
-
-<pre><code>This is a &lt;pre&gt;
+<p>A bunch of <code>code</code></p>
+<p><code>
+	span.big { font-size:18px; font-weight:bold; color:#C61817; background:#EBEFF9;}<br/>
+	a.learnmore { color:#0088CC; background:url(morearrow.gif) no-repeat 100% 50%; padding-right: 8px; }<br/>
+	a.margin5 {margin:5px;}<br/>
+	.vlink { color:#3366CC; }<br/>
+	</code>
+</p>
+	
+<pre><code>This is a pre <br/>
+	span.big { font-size:18px; font-weight:bold; color:#C61817; background:#EBEFF9;}
+	a.learnmore { color:#0088CC; background:url(morearrow.gif) no-repeat 100% 50%; }
+	a.margin5 {margin:5px;}
+	.vlink { color:#3366CC; }
 </code></pre>
 
 <blockquote>
