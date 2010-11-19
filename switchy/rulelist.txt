@@ -1,0 +1,42 @@
+; Summary: Switchy Rule List
+; Author: zonovo (zonovo@gmail.com)
+; Date: 2010-01-19
+; URL: http://zonovo.github.com/switchy/rulelist.txt
+
+#BEGIN
+
+[Wildcard]
+*.bkite.com
+*.brightkite.com
+*.blogspot.com
+*.dropbox.com
+*.facebook.com
+*.fbcdn.net
+*.fbcdn.*
+*feedproxy.google.com
+*.flc.kr
+*.flickr.com
+*.imdb.com
+*.img.ly
+*.j.mp
+*.mashable.com
+*.opera.com
+*.pastie.org
+*.post.ly
+*.posterous.com
+*.scribd.com
+*.simplebits.com
+*.t.co
+*.ted.com
+*.tumblr.com
+*.twitpic.com
+*.twitter.com
+*.wikimedia.com
+*.wikipedia.com
+*.wikipedia.org
+*.wordpres.com
+*.yfrog.com
+*.youtube.com
+*.ytimg.com
+
+#END
