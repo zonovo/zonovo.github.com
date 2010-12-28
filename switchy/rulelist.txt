@@ -30,6 +30,7 @@
 *.ted.com
 *.tumblr.com
 *.twitpic.com
+*.twimg.com
 *.twitter.com
 *.wikimedia.com
 *.wikipedia.com
