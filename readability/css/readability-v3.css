@@ -171,7 +171,7 @@ height: auto !important;
 max-width: none !important;
 }
 
-#readInner .caption, #readInner .credit, #readInner figcaption {
+#readInner .caption, #readInner .credit {
 font-size: 12px !important;
 font-family: Arial, Sans-Serif !important;
 color: #999 !important;
@@ -181,7 +181,7 @@ padding: 0 0.2em !important;
 line-height: 1.4em !important;
 padding-left: 14px !important;
 }
-#readInner .caption, #readInner figcaption {
+#readInner .caption {
 background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkM4RTU5ODREMUY1MjExRTBBMEU3REVBNEUwQkNGMTMyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkM4RTU5ODRFMUY1MjExRTBBMEU3REVBNEUwQkNGMTMyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QzhFNTk4NEIxRjUyMTFFMEEwRTdERUE0RTBCQ0YxMzIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QzhFNTk4NEMxRjUyMTFFMEEwRTdERUE0RTBCQ0YxMzIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6bwFhCAAAABlBMVEWZmZn///+D7jMZAAAAAnRSTlP/AOW3MEoAAAAxSURBVHjaYmBEAgwIFgMEMUBIuAyIzQgTA7GhMhA2WAaungEhjlUPslUQm9BkAAIMAB3RAGFYtg38AAAAAElFTkSuQmCC) no-repeat 0 1px !important;
 }
 #readInner .credit {
@@ -251,7 +251,7 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAnCAYAAAAPZ2
 -webkit-transition: all 0.2s ease-in-out !important;
 color: #333 !important;
 }
-#readInner blockquote a, #readInner .caption a,#readInner .credit a, #readInner code a, #readInner figcaption a {
+#readInner blockquote a, #readInner .caption a,#readInner .credit a, #readInner code a {
 color: #999 !important;
 }
 #readInner .illustration a {
